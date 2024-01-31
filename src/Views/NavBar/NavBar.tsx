@@ -8,6 +8,7 @@ export const NavBar = () => {
         <Menu />
         <Close />
         <DragMove />
+        <h1>teste</h1>
       </Container>
     </>
   );
