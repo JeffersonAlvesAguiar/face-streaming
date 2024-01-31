@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+max-width: 640px;
+max-height: 480px;
 display: flex;
 align-items: center;
 justify-content: center;
-padding-top: 5px;
-padding-left: 5px;
-padding-bottom: 5px;
-padding-right: 5px;
+object-fit: cover;
 box-sizing: border-box;
 border-radius: 16px;
 `;

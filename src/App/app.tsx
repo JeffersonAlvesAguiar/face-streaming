@@ -1,4 +1,4 @@
-import { NavBar, Video } from "../Views/index";
+import {  NavBar, Video } from "../Views/index";
 import { Container } from "./style.app";
 
 function App() {

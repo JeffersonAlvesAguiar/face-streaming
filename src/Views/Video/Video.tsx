@@ -1,7 +1,10 @@
 import Webcam from "react-webcam";
 import { Container } from "./style";
+import { NavBar } from "../NavBar";
 
 export const Video = () => {
+  console.log(Container);
+
   return (
     <>
       <Container>
@@ -10,9 +13,10 @@ export const Video = () => {
           imageSmoothing={true}
           mirrored={true}
           style={{
-            maxWidth: "100%",
-            // maxHeight: "100vw",
+            maxWidth: "100vw",
+            maxHeight: "100vh",
             borderRadius: 16,
+            objectFit: "cover",
             border: "10px solid rgb(2,0,36)",
           }}
         />
